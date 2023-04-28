@@ -25,4 +25,4 @@ const loop = setInterval(() => {
   }
 }, 50)
 
-document.addEventListener('keydown', jump); a
+document.addEventListener('keydown', jump);
