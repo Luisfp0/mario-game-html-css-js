@@ -17,7 +17,7 @@ const loop = setInterval(() => {
     } else {
       pype.style.animation = 'none';
       pype.classList.add('pype-left');
-      mario.src = './images/wasted.png'
+      mario.src = './Images/wasted.png'
       mario.classList.remove('mario')
       mario.classList.add('wasted')
       clearInterval(loop);
