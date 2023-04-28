@@ -19,8 +19,12 @@
   bottom: 0px;
   left: 300px;
   width: 200px;
+
+}
+
+.jump {
   animation-name: jump;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   animation-timing-function: ease-out;
 }
 
@@ -29,7 +33,7 @@
   bottom: 0;
   width: 80px;
   animation-name: pipe-animation;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -80,15 +84,15 @@
   }
 
   40% {
-    bottom: 135px;
+    bottom: 150px;
   }
 
   50% {
-    bottom: 135px;
+    bottom: 150px;
   }
 
   60% {
-    bottom: 135px;
+    bottom: 150px;
   }
 
   100%{
