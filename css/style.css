@@ -42,9 +42,78 @@
   bottom: -10px;;
 }
 
+.cloud1 {
+  position: absolute;
+  width: 300px;
+  animation-name: cloud1-animation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 100px;
+  top: 30px;
+  animation-name: cloud2-animation;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cloud3 {
+  position: absolute;
+  width: 250px;
+  top: 50px;
+  animation-name: cloud3-animation;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes jump {
+  from {
+
+  }
+
+  to {
+    
+  }
+}
+
 @keyframes pipe-animation {
   from {
     right: -100px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes cloud1-animation {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes cloud2-animation {
+  from {
+    right: -700px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes cloud3-animation {
+  from {
+    right: -700px;
   }
 
   to {
