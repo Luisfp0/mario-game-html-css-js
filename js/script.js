@@ -18,6 +18,9 @@ const loop = setInterval(() => {
       pype.style.animation = 'none';
       pype.classList.add('pype-left');
       mario.src = './images/wasted.png'
+      mario.classList.remove('mario')
+      mario.classList.add('wasted')
+      clearInterval(loop);
     }
   }
 }, 50)
