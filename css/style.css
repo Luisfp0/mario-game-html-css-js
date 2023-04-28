@@ -28,14 +28,18 @@
   animation-timing-function: ease-out;
 }
 
-.pipe {
+.pype {
   position: absolute;
   bottom: 0;
   width: 80px;
   animation-name: pipe-animation;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.pype-left {
+  left: 450px;
 }
 
 .bush1 {
