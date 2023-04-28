@@ -3,19 +3,21 @@ const jump = () => {
   mario.classList.add('jump');
   setTimeout(() => {
     mario.classList.remove('jump');
-  }, 700);
+  }, 600);
 }
 
 const loop = setInterval(() => {
   const mario = document.querySelector('.mario');
   const pype = document.querySelector('.pype');
   let pypePosition = pype.offsetLeft
-  if (pypePosition < 470 && pypePosition > 450) {
+  console.log(pypePosition)
+  if (pypePosition < 450 && pypePosition > 340) {
     if (mario.classList.contains('jump')) {
       return
     } else {
       pype.style.animation = 'none';
       pype.classList.add('pype-left');
+      mario.src = './images/wasted.png'
     }
   }
 }, 50)
